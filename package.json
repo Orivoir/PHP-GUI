@@ -1,0 +1,21 @@
+{
+  "name": "PHP-GUI",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./desktop/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orivoir/PHP-GUI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Orivoir/PHP-GUI/issues"
+  },
+  "homepage": "https://github.com/Orivoir/PHP-GUI#readme"
+}

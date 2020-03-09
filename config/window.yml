@@ -1,0 +1,51 @@
+# Read https://www.electronjs.org/docs/api/browser-window#classe--browserwindow for full list setter windows
+
+# wp prefix is web_preferences
+
+window:
+  width: 800
+  height: 600
+
+  # check state of Native Security Electron before use true value in prod:
+  # https://www.electronjs.org/docs/tutorial/security
+  wp_node_integration: false
+
+  # the background color and applied until the application is not ready
+  background_color: '#000'
+
+  resizeable: true
+  movable: true
+
+  # no implements with GNU/Linux
+  closable: true
+
+  # transform origin is top left
+  coo:
+    x: 'center'
+    y: 'center'
+
+  z_index_max: false
+
+  fullscreen: false
+
+  # only MacOS
+  simpleFullscreen: false
+
+  # only MacOS
+  skipTaskbar: false
+
+  kiosk: false
+
+  icon: "/public/icon/MainPHP.ico"
+
+  # not border frame with false value
+  frame: true
+
+  # default only with Alt keydown
+  autoHideMenuBar: false
+
+  # force use dark theme native only with GTK+3 desktop
+  darkTheme: false
+
+  # open debug console of V8
+  wp_devTools: true

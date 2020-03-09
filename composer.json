@@ -1,0 +1,12 @@
+{
+    "name": "orivoir21/php-gui",
+    "description": "compiler php to nodejs with electron for open dektop app write with php",
+    "authors": [
+        {
+            "name": "Samuel Gaborieau",
+            "email": "sam.gabor@hotmail.com"
+        }
+    ],
+    "license": "BSD-2-CLAUSE",
+    "require": {}
+}
